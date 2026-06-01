@@ -1,0 +1,6 @@
+{
+  "name": "Sara Louise Facilities",
+  "description": "Premium hallway cleaning, facility maintenance, and general cleaning services for residential and commercial spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
