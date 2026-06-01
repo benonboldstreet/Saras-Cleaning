@@ -154,23 +154,21 @@ export default function App() {
     setSubmitStatus('loading');
 
     try {
-      // Netlify forms data submission
-      const response = await fetch('/', {
+      // Standard API submission, compatible with local Node.js and Cloudflare Pages Functions
+      const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({
-          'form-name': 'contact',
-          'bot-field': '',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
           name: formName,
           email: formEmail,
           phone: formPhone,
           company: formCompany,
-          service: formService,
+          serviceType: formService,
           message: formMessage
-        }).toString()
+        })
       });
 
-      if (response.status === 200 || response.ok) {
+      if (response.ok) {
         setSubmitStatus('success');
         // Reset form fields
         setFormName('');
