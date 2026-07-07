@@ -522,7 +522,7 @@ export default function App() {
                     value={formName}
                     onChange={(e) => handleInputChange('name', e.target.value)}
                     onBlur={() => handleBlur('name')}
-                    placeholder="e.g. Ben Simpson"
+                    placeholder="e.g. Jane Doe"
                     className={`w-full bg-slate-50 border ${errors.name && touched.name ? 'border-red-400 focus:border-red-500 focus:ring-red-200/50' : 'border-slate-200 focus:border-amber-700 focus:ring-amber-200/50'} focus:bg-white rounded-xl p-3 text-sm focus:outline-hidden focus:ring-1 transition-all font-sans`}
                   />
                   {errors.name && touched.name && (
