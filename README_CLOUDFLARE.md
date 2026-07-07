@@ -38,7 +38,7 @@ To activate email notifications on form submissions:
 | Variable Name | Description | Example Value |
 | :--- | :--- | :--- |
 | `RESEND_API_KEY` | Your Resend API Key (Get a free one [here](https://resend.com/)) | `re_123456789...` |
-| `TO_EMAIL` | The inbox you want to receive submissions | `sara.louise.calvert@gmail.com` |
+| `TO_EMAIL` | The inbox you want to receive submissions | `Hello@SaraLouiseFacilities.com` |
 | `CONTACT_WEBHOOK_URL` | Optional Discord, Slack, or Zapier Webhook URL | `https://discord.com/api/webhooks/...` |
 
 4. Click **Save** and trigger a redeploy of your project to source the variables.

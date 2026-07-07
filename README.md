@@ -36,7 +36,7 @@ To receive instant email notifications whenever a client requests a quote, go to
 | Key | Value Description |
 | :--- | :--- |
 | `RESEND_API_KEY` | Your Resend API secret (from [resend.com](https://resend.com)) |
-| `TO_EMAIL` | The recipient address (e.g. `sara.louise.calvert@gmail.com`) |
+| `TO_EMAIL` | The recipient address (e.g. `Hello@SaraLouiseFacilities.com`) |
 | `CONTACT_WEBHOOK_URL` | *(Optional)* Discord, Slack, or Zapier endpoint for chat updates |
 
 ---

@@ -56,7 +56,7 @@ async function startServer() {
   ];
 
   // Confidential target email (stored strictly server-side)
-  const TARGET_EMAIL = "sara.louise.calvert@gmail.com";
+  const TARGET_EMAIL = "Hello@SaraLouiseFacilities.com";
 
   // POST /api/contact submit endpoint
   app.post("/api/contact", (req, res) => {

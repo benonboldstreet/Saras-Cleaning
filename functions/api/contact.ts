@@ -22,7 +22,7 @@ export const onRequestPost = async (context: { request: Request; env: Env }) => 
     let resendMessage = "";
     
     if (env.RESEND_API_KEY) {
-      const recipient = env.TO_EMAIL || "sara.louise.calvert@gmail.com";
+      const recipient = env.TO_EMAIL || "Hello@SaraLouiseFacilities.com";
       const resendResponse = await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: {
